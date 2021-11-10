@@ -3,6 +3,16 @@
   "author": "JAGADEESH P",
   "version": "0.1.0",
   "private": true,
+   "homepage": "https://jagadeeshpj.github.io/Calculator-using-ReactJS",
+
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "gh-pages": "^2.2.0",
+    "prettier": "^1.17.1",
+    "react-scripts": "^3.0.1"
+  },
+  
+  
   "dependencies": {
     "firebase": "^7.15.5",
     "node-sass": "^4.14.1",
@@ -22,7 +32,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
